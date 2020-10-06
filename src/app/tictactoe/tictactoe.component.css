@@ -1,0 +1,17 @@
+body {
+    display: block;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-top: 2em;
+}
+
+td {
+    border: 2px solid black;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    vertical-align: middle;
+}
