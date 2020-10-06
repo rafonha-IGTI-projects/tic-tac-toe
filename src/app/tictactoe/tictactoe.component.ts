@@ -21,6 +21,7 @@ export class TictactoeComponent {
 
       if(this.checkWinner(this.currentPlayer)) {
         this.winner = this.currentPlayer;
+        alert(`Player ${this.currentPlayer} is the winner!`)
       }
 
       if (this.currentPlayer =='O') {
