@@ -1,5 +1,5 @@
-<p>Player: {{currentPlayer}} </p>
-<p>Winner: {{winner}} </p>
+<p *ngIf="!winner">Player: {{currentPlayer}} </p>
+<p *ngIf="winner">Winner: {{winner}} </p>
 <button (click)='reset()'>Play again</button>
 
 <table>
